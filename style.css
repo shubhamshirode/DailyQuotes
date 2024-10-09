@@ -12,7 +12,7 @@ body{
 }
 .quote-box {
     position: absolute;
-    width: 30rem;
+    width: 40%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -51,4 +51,11 @@ button {
 .quote-box .quote::before,
 .quote-box .quote::after {
     content: ' " ';
+}
+
+
+@media screen and (max-width: 425px) {
+    .quote-box {
+        width: 90%;
+    }
 }
